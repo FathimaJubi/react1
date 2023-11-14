@@ -1,0 +1,43 @@
+
+nav{
+    display: flex;
+    text-decoration: none;
+  
+    
+    background-color: rgb(66, 43, 43);
+    border-radius: 20px;
+    
+  
+}
+
+ ul li {
+    
+    list-style: none;
+    
+    float:left;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    margin-left: 20px;
+    background-color: rgb(66, 43, 43);
+    border-radius: 20px;
+    
+}
+
+ul li .link{
+    
+    color: beige;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+   
+    width: 10%;
+    border-radius: 5px;
+}
+
+ul li .link:hover{
+    color: burlywood;
+}
+
+
